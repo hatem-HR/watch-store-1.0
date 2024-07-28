@@ -8,86 +8,111 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-<!--navbar start-->
-<nav class="navbar">
-<a href="#">
-        <!--select country start-->
-    <label for="country"></label>
-        <select id="country" name="country">
-            <option value="tn">TUNISIA</option>
-            <option value="alg">ALGERIA</option>
-            <option value="lb">LIBYA</option>
-            <option value="eg">EGYPT</option>
-            <option value="fr">FRANCE</option>
-            <option value="uk">UK</option>
-            <option value="sf">SOUTH AFRICA</option>
-     </select>
- </a>
-    <!--select country end-->
-<div class="actions">
-        <a class="signin" href="#">SIGN IN</a>
-        <a class="register" href="#">REGISTER</a>
-        <a class="shoplogo" href="#"><i class="fa-solid fa-bag-shopping"></i> 0</a> 
-</div>
-</nav>
-<!--navbar end-->
+    <header id="home">
+        <!--navbar start-->
+        <nav class="navbar">
+            <a href="#">
+                <!--select country start-->
+                <label for="country"></label>
+                <select id="country" name="country">
+                    <option value="tn">TUNISIA</option>
+                    <option value="alg">ALGERIA</option>
+                    <option value="lb">LIBYA</option>
+                    <option value="eg">EGYPT</option>
+                    <option value="fr">FRANCE</option>
+                    <option value="uk">UK</option>
+                    <option value="sf">SOUTH AFRICA</option>
+                </select>
+            </a>
+            <!--select country end-->
+            <div class="actions">
+                <a class="signin" href="#">SIGN IN</a>
+                <a class="register" href="#">REGISTER</a>
+                <a class="shoplogo" href="#"><i class="fa-solid fa-bag-shopping"></i> 0</a> 
+            </div>
+        </nav>
+        <!--navbar end-->
 
-<!--navbar1 start-->
-<nav class="navbar1">
-<ul class="nav-items1">
-        <li><a href="#">WATCHES</a></li>
-        <li><a href="#">OUR LOCATION</a></li>
-     <li><a href="#"><img src="img/logosite.png" alt="website logo"></a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">SERVICES</a></li>
- </ul>
-</nav>
-<!--navbar1 end-->
+        <!--navbar1 start-->
+        <nav class="navbar1">
+            <ul class="nav-items1">
+                <li><a class="links" href="">WATCHES</a></li>
+                <li><a class="links" href="">OUR LOCATION</a></li>
+                <li><a href="#home"><img src="img/logosite.png" alt="website logo"></a></li>
+                <li><a class="links" href="">ABOUT</a></li>
+                <li><a class="links" href="">SERVICES</a></li>
+            </ul>
+        </nav>
+        <!--navbar1 end-->
 
-<!--main section start-->
-<section id="mainsection">
-    <div class="box-btn-shop">
-     <div class="box-content">
-            <p class="title1">FLINDERS<br>COLLECTION</p><br>
-            <p class="title2">Back in Stock!</p><br>
-         <button class="shop-now-btn">SHOP NOW</button>
-     </div>
-    </div>
-   <!--delivery and revious start-->
-</section>
-<div class="deliveryband">
-    <div class="item">
-      <div class="logos"><i class="fa-solid fa-plane"></i></div>
-      <div class="paragraphs"><p>FREE EXPRESS SHIPPING ON ALL WATCHES *TERMS AND CONDITIONS APPLY</p></div>
-    </div>
-    <div class="item">
-      <div class="logos"><i class="fa-solid fa-box"></i></div>
-      <div class="paragraphs"><p id="f">30 DAY RETURNS BUY WITH CONFIDENCE *TERMS AND CONDITIONS APPLY</p></div>
-    </div>
-    <div class="item">
-      <div class="logos"><i class="fa-solid fa-check"></i></div>
-      <div class="paragraphs"><p>2 YEAR WARRANTY PREMIUM SUPPORT</p></div>
-    </div>
-  </div>
-  
-    
-
-       <div class="reviews">
-       <p>REVIOUS</p><span class="fa fa-star checked"></span>
-       <span class="fa fa-star checked"></span>
-       <span class="fa fa-star checked"></span>
-       <span class="fa fa-star checked"></span>
-       <span class="fa fa-star"></span>
-       <p><pre>  4.9 based on 386 revious</pre></p> 
+        <!--main section start-->
+        <section id="mainsection">
+            <div class="box-btn-shop">
+                <div class="box-content">
+                    <p class="title1">FLINDERS<br>COLLECTION</p><br>
+                    <p class="title2">Back in Stock!</p><br>
+                    <button id="shop-now-btn">SHOP NOW</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--delivery and revious start-->
+    <div class="deliveryband">
+        <div class="item">
+            <div class="logos"><i class="fa-solid fa-plane"></i></div>
+            <div class="paragraphs"><p>FREE EXPRESS SHIPPING ON ALL WATCHES *TERMS AND CONDITIONS APPLY</p></div>
         </div>
-        <!--delivery and revious end-->
-<!--main section end-->
-<!--about (story) start-->
+        <div class="item">
+            <div class="logos"><i class="fa-solid fa-box"></i></div>
+            <div class="paragraphs"><p id="f">30 DAY RETURNS BUY WITH CONFIDENCE *TERMS AND CONDITIONS APPLY</p></div>
+        </div>
+        <div class="item">
+            <div class="logos"><i class="fa-solid fa-check"></i></div>
+            <div class="paragraphs"><p>2 YEAR WARRANTY PREMIUM SUPPORT</p></div>
+        </div>
+    </div>
 
+    <div class="reviews">
+        <p>REVIOUS</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p><pre>  4.9 based on 386 revious</pre></p> 
+    </div>
+    <!--delivery and revious end-->
+    <!--main section end-->
+    <!--about (story) start-->
+    <section id="story">
+        <div class="about-container">
+            <pre>
+                Established in 2013, we're dedicated to producing stylish and unique
+                Australian watches that are accessible to enthusiasts, casual collectors
+                                                                           and beyond.
+            </pre>
+        </div>
+        <div><button id="see-our-story">SEE OUR STORY</button></div>
+    </section>
+    <!--story (see our story) end-->
 
-
-
-<!--about (story) end-->
-
+    <!--our collection start-->
+    <section id="collections">
+        <div class="collection-container">
+            <div><p class="title1"> OUR COLLECTION</p> <br>
+                <hr>
+            </div>
+            <div class="watches-containers">
+                <div class="arrow-scroll">x</div>
+                <div class="product1"></div>
+                <div class="product2"></div>
+                <div class="product3"></div>
+                <div class="product4"></div>
+                <div class="product5"></div>
+                <div class="arrow-scroll">x</div>
+            </div>
+        </div>
+    </section>
+    <!--our collection end-->
 </body>
 </html>
