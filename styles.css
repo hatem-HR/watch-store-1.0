@@ -23,31 +23,31 @@ body {
     margin: 0 10px;
     font-weight: 500;
 }
-.actions a:hover {
-    color: #5e6368;
+.actions:hover {
+    opacity: 0.7;transition: 0.4s;
 }
 /*navbar1 start */
 .navbar1 {
-    position: -webkit-sticky; /* For Safari */
+    
     position: sticky;
-    top: 0; /* Make it stick to the top when scrolling */
+    top: 0;
     padding: 0 20px;
     background-color: #fff;
     justify-content: space-between;
     align-items: center;
-    z-index: 1000; /* Ensure it stays above other content */
-    display: flex; /* Added flex for proper layout */
-    margin: 0; /* Ensure no margin */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow similar to navbar for visual continuity */
+    z-index: 1000;
+    display: flex; 
+    margin: 0; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 .nav-items1 {
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Ensure it stretches the full width */
-    padding: 0; /* Ensure no padding */
-    margin: 0; /* Ensure no margin */
+    width: 100%; 
+    padding: 0;
+    margin: 0; 
 }
 .nav-items1 a {
     text-decoration: none;
@@ -56,7 +56,9 @@ body {
     margin-left: 50px;
 }
 .nav-items1 a:hover {
-    color: #5e6368;
+   
+        opacity: 0.7;transition: 0.4s;
+
 }
 .nav-items1 li a img {
     height: 100px;
@@ -68,22 +70,21 @@ body {
 }
 /*navbar1 end*/
 /*mainsection start */
+
 #mainsection {
-    margin-top: 3px;
-    padding: 0; /* Ensure no padding */
+    padding: 0; 
     position: relative;
     width: 100%;
-    height: 300vh;
+    height: 97vh;
     background: url(img/background.jpg);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 #mainsection .box-btn-shop {
-    top: 3.5cm;
     background-color: rgba(23, 20, 31, 0.7); 
     height: 370px;
     width: 450px;
-    margin-top: 0; /* Reset margin-top */
+    top: 3.5cm; 
     margin-left: 820px;
     position: relative;
     z-index: 1;
@@ -104,7 +105,6 @@ body {
     margin-left: 35px;
 }
 .shop-now-btn {
-    
     background: transparent;
     border: 2px solid white;
     padding: 10px 35px;
@@ -119,3 +119,60 @@ body {
     opacity: 0.7;
 }
 /*mainsection end */
+
+
+/*deliveyband and revious sart*/
+
+.deliveryband {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.5cm;
+    width: 100%;
+    background-color: #1a1c24
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+  }
+  .item:hover {
+    opacity: 0.7;transition: 0.4s;
+}
+  
+  .paragraphs {
+    width: 70%;
+    padding-left: 40px;
+    color: #fff;
+  }
+  .logos{
+    color: #fff;
+    font-size: 1.5em;
+  }
+  /*revious*/
+  .reviews{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    font-weight: 300;
+  }
+  .checked {
+    color: orange;
+  }
+  /*deliveyband end*/
+ 
+  
+
+
+
+
+
+.reviews{
+
+    height: 1cm;
+    width: 100%;
+    background-color: #000000;
+}
+/*deliveyband end*/
