@@ -10,7 +10,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    background-color: #2533ec;
+    background-color: #ffffff;
 }
 
 header {
@@ -100,10 +100,7 @@ header {
     z-index: 1;
 }
 
-#mainsection .box-btn-shop:hover {
-    box-shadow: 4px 4px 8px 0 rgba(95, 91, 108, 0.8);
-    transition: transform 0.7s ease;
-}
+
 
 #mainsection .box-content {
     position: absolute;
@@ -295,8 +292,6 @@ hr {
     align-items: center;
 }
 
-
-
 .insta .title1 {
     font-size: 24px;
     margin-bottom: 20px; 
@@ -311,10 +306,13 @@ hr {
     width: 80%; 
 }
 
+
+
 .feeds {
-    flex: 1 1 22%; /* Flex-grow, flex-shrink, flex-basis */
+    position: relative;
+    flex: 1 1 22%;
     height: 200px; 
-    background-color: lightblue;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,5 +322,70 @@ hr {
     height: 100%;
     object-fit: cover;
 }
+
+#follow-us .catalogue #feed1 {
+    background-image: url(img/insta/insta1.jpg);
+    background-size: cover;
+    position: relative;
+}
+#follow-us .catalogue #feed2 {
+    background-image: url(img/insta/insta2.jpg);
+    background-size: cover
+
+}
+
+#follow-us .catalogue #feed3 {
+    background-image: url(img/insta/insta3.jpg);
+    background-size: cover
+
+}
+#follow-us .catalogue #feed4 {
+    background-image: url(img/insta/insta4.jpg);
+    background-size: cover
+
+}
+
+#follow-us .catalogue #feed5 {
+    background-image: url(img/insta/insta5.jpg);
+    background-size: cover
+
+}
+
+#follow-us .catalogue #feed6 {
+    background-image: url(img/insta/insta6.jpg);
+    background-size: cover
+
+}
+
+#follow-us .catalogue #feed7 {
+    background-image: url(img/insta/insta7.jpg);
+    background-size: cover
+
+}
+
+#follow-us .catalogue #feed8 {
+    background-image: url(img/insta/insta8.jpg);
+    background-size: cover
+
+}
+.boxhover {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.7; 
+    z-index:1; 
+    display: flex;
+}
+.boxhover i{
+  color: rgb(255, 255, 255);
+  margin: auto;
+}
+
+
+
+
 
 
