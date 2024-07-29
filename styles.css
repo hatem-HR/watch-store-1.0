@@ -40,13 +40,13 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
 .actions a {
     text-decoration: none;
     color: #000000;
     margin: 0 10px;
     font-weight: 500;
 }
+
 /* hover on navigations */
 .signin:hover , .register:hover , .shoplogo:hover 
 , .nav-items1 .links:hover {
@@ -99,8 +99,6 @@ header {
     position: relative;
     z-index: 1;
 }
-
-
 
 #mainsection .box-content {
     position: absolute;
@@ -229,7 +227,6 @@ hr {
 
 #collections .collection-container {
     padding-top: 50px;
-   
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -246,41 +243,47 @@ hr {
     height: 370px;
     width: 230px;
     background-color: rgb(255, 255, 255);
- display: flex;
- flex-direction: column;
- align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .watches-containers .product-image{
     height: 370px;
     width: 230px;
     object-fit: cover;
 }
+
 .watches-containers .product-title{
     margin-top: 20px;
     font-size: 20px;
 }
+
 .product-title:hover{
     opacity: 0.7;
 }
+
 .product-image:hover{
     scale: 1.1;
     transition: 0.5s;
 }
+
 #explore-collections{
-    
-        background: transparent;
-        border: 2px solid rgb(0, 0, 0);
-        padding: 10px 35px;
-        font-size: 16px;
-        cursor: pointer;
-        color: #000000;
-        margin-top: 30px;
-        margin-left: 0;
-        transition: 0.3s ease;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000000;
+    margin-top: 30px;
+    margin-left: 0;
+    transition: 0.3s ease;
 }
+
 #explore-collections:hover {
     opacity: 0.6;
-}  
+}
+
 /*follow us start */
 #follow-us {
     margin-top: 20px;
@@ -306,17 +309,16 @@ hr {
     width: 80%; 
 }
 
-
-
 .feeds {
     position: relative;
     flex: 1 1 22%;
     height: 200px; 
-    
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
+
 .feeds img {
     width: 100%;
     height: 100%;
@@ -328,64 +330,58 @@ hr {
     background-size: cover;
     position: relative;
 }
+
 #follow-us .catalogue #feed2 {
     background-image: url(img/insta/insta2.jpg);
     background-size: cover
-
 }
 
 #follow-us .catalogue #feed3 {
     background-image: url(img/insta/insta3.jpg);
     background-size: cover
-
 }
+
 #follow-us .catalogue #feed4 {
     background-image: url(img/insta/insta4.jpg);
     background-size: cover
-
 }
 
 #follow-us .catalogue #feed5 {
     background-image: url(img/insta/insta5.jpg);
     background-size: cover
-
 }
 
 #follow-us .catalogue #feed6 {
     background-image: url(img/insta/insta6.jpg);
     background-size: cover
-
 }
 
 #follow-us .catalogue #feed7 {
     background-image: url(img/insta/insta7.jpg);
     background-size: cover
-
 }
 
 #follow-us .catalogue #feed8 {
     background-image: url(img/insta/insta8.jpg);
     background-size: cover
-
 }
+
 .boxhover {
-    position: absolute; 
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
     top: 0;
+    bottom: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #000000;
-    opacity: 0.7; 
-    z-index:1; 
+    right: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 3;
 }
-.boxhover i{
-  color: rgb(255, 255, 255);
-  margin: auto;
+
+.feeds:hover .boxhover {
+    opacity: 1;
 }
-
-
-
-
-
-
