@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header id="home">
+        <nav class="navbar">
+            <a href="#">
+                <label for="country"></label>
+                <select id="country" name="country">
+                    <option value="tn">TUNISIA</option>
+                    <option value="alg">ALGERIA</option>
+                    <option value="lb">LIBYA</option>
+                    <option value="eg">EGYPT</option>
+                    <option value="fr">FRANCE</option>
+                    <option value="uk">UK</option>
+                    <option value="sf">SOUTH AFRICA</option>
+                </select>
+            </a>
+            <div class="actions">
+                <a class="signin" href="signin.html">SIGN IN</a>
+                <a class="register" href="register.html">REGISTER</a>
+                <a class="shoplogo" href=""><i class="fa-solid fa-bag-shopping"></i> 0</a> 
+            </div>
+        </nav>
+        <nav class="navbar1">
+            <ul class="nav-items1">
+                <li><a class="links" href="#">WATCHES</a></li>
+                <li><a class="links" href="ourlocation.htm">OUR LOCATION</a></li>
+                <li><a href="index.html"><img src="img/logosite.png" alt="website logo"></a></li>
+                <li><a class="links" href="about.html">ABOUT</a></li>
+                <li><a class="links" href="#">SERVICES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="register-section">
+           
+            <h2>Register</h2>
+            <form action="#" method="post" class="register-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="myfooter">
+        <div class="footer-content">
+            <p class="footer-message">SIGN UP FOR EXCLUSIVE OFFERS AND NEWS</p>
+            <form class="footer-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">SUBSCRIBE</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
