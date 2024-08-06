@@ -597,6 +597,7 @@ p {
 /*watches collection start*/
 
 .store-container {
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -605,18 +606,22 @@ p {
 }
 
 .store-product {
-  background-color: #fff;
+  
   border: 1px solid #ddd;
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: calc(25% - 40px); 
   box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.2s;
 }
 
 .product-title img {
+ 
   max-width: 100%;
-  height: auto;
+  height: 15rem;
   margin-bottom: 10px;
 }
 .product-title img:hover{
